@@ -17,12 +17,12 @@ apply {
 
 android {
     namespace = "com.google.tensorflowdemo"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.google.tensorflowdemo"
-        minSdk = 24
-        targetSdk = 33
+        minSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
     }
@@ -60,6 +60,8 @@ android {
             "plugin:androidx.compose.compiler.plugins.kotlin:suppressKotlinVersionCompatibilityCheck=1.8.10"
         )
     }
+    buildToolsVersion = "35.0.0"
+    ndkVersion = "27.0.11902837 rc2"
 }
 
 dependencies {
